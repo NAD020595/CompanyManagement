@@ -4,15 +4,15 @@ go
 use CompanyManagement
 go
 
-create table Deparment 
+create table Department 
 (
 	ID int identity(1,1),
 	Name varchar(500)
 )
 
-insert into Deparment values ('IT')
-insert into Deparment values ('Software Development')
-insert into Deparment values ('Support')
+insert into Department values ('IT')
+insert into Department values ('Software Development')
+insert into Department values ('Support')
 
 create table Employee
 (
